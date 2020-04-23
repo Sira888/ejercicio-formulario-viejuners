@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ladronzuelos en acción!</h1>
+        <h2>Rellena el form!</h2>
+    </header>
+    <main>
+    <section>
+        <h2>Introducción</h2>
+        <p>I love cheese, especially airedale queso. Cheese and biscuits halloumi cauliflower cheese cottage cheese swiss boursin fondue caerphilly. Cow port-salut camembert de normandie macaroni cheese feta who moved my cheese babybel boursin. Red leicester roquefort boursin squirty cheese jarlsberg blue castello caerphilly chalk and cheese. Lancashire.</p>
+    </section>
+    <figure>
+        <img src="https://raw.githubusercontent.com/TheBridge-FullStackDeveloper/html-pp-formularios/master/abueletes.jpg" alt="abuelensis">
+        <figcaption> Abuelensis despues del crimen</figcaption>
+    </figure>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Los ladronzuelos de bicicletas:</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="dia">Día:</label>
+                    </td>
+                    <td>
+                        <input type="date" id="dia" name="dia" tabindex="1">
+                    </td>
+                    <td>
+                        <label for="hora">Hora:</label>
+                    </td>
+                    <td><input type="time" id="hora" name="hora" tabindex="2"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="colorbici">Color de la bicicleta:</label>
+                    </td>
+                    <td>
+                        <input type="color" id="colorbici" name="color" tabindex="3">
+                    </td>
+                    <td>
+                        <label for="biketype">Tipo de bicicleta:</label>
+                    </td>
+                    <td>
+                        <select name="biketype" id="biketype" tabindex="4" required>
+                            <optgroup value="Paseo">
+                                <option value="Señorial">Señorial</option>
+                                <option value="Anti-plebeyos">Anti-Plebeyos</option>
+                                <option value="PorEncimaDelHombro">PorEncimaDelHombro</option>
+                            <optgroup value="Montaña">
+                                <option value="Gamusinos">Gamusinos</option>
+                                <option value="Hueleflores premium">Hueleflores premium</option>
+                                <option value="Fango lover">Fango lover</option>
+                            </optgroup>
+                            <optgroup value="Carreras">
+                                <option value="Metroymedio">Metroymedio</option>
+                                <option value="3 de la tarde.Fluorescente edition">3 de la tarde.Fluorescente edition
+                                </option>
+                                <option value="Grupitors">Grupitors</option>
+                            </optgroup>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="stuff">Selecciona accesorios de moda:</label>
+                    </td>
+                    <td>
+                        <select id="stuff" name="stuff" multiple>
+                            <option value="">--Please choose an option--</option>
+                            <option value="Ruedines">Ruedines</option>
+                            <option value="Pegatinas">Pegatinas</option>
+                            <option value="Cestita">Cestita</option>
+                            <option value="Bomba de aire">Bomba de aire</option>
+                            <option value="Timbre">Timbre</option>
+                            <option value="Foco">Foco</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="marca">¿Que marca era?</label></td>
+                    <td>
+                        <input list="marca" name="marca">
+                        <datalist id="marca">
+                            <option value="specialized">
+                            <option value="trek">
+                            <option value="merida">
+                            <option value="scott">
+                            <option value="giant">
+                            <option value="cube">
+                            <option value="lapierre">
+                            <option value="orbea">
+                            <option value="cannondale">
+                            <option value="bmc">
+                            <option value="canyon">
+                            <option value="look">
+                            <option value="protek">
+                            <option value="megamo">
+                            <option value="pinarello">
+                            <option value="bianchi">
+                            <option value="bh">
+                            <option value="factor">
+                            <option value="ghost">
+                            <option value="cervélo">
+                            <option value="argon">
+                        </datalist>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <input type="submit"></td>
+                        <td><button type="reset">Resetear</button></td>
+                    </tr>
+                </table>
+        </fieldset>
+    </form>
+</main>
+</body>
+
+</html>
